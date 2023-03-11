@@ -1,0 +1,489 @@
+{
+    "title": "חיפוש 3/11/2023 at 11:20:38 AM",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 964,
+            "height": 713,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://jpetstore.aspectran.com/catalog/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "offsetY": 21.92498779296875,
+            "offsetX": 130.29998779296875
+        },
+        {
+            "type": "change",
+            "value": "חתול",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/searchProducts?keyword=%D7%97%D7%AA%D7%95%D7%9C",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "offsetY": 33.92498779296875,
+            "offsetX": 98.29998779296875
+        },
+        {
+            "type": "change",
+            "value": "כלב",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Search"
+                ],
+                [
+                    "section button"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/div/button"
+                ],
+                [
+                    "pierce/section button"
+                ]
+            ],
+            "offsetY": 37.92498779296875,
+            "offsetX": 36.89996337890625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/searchProducts?keyword=%D7%9B%D7%9C%D7%91",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "keyUp",
+            "key": "Control",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "offsetY": 18.92498779296875,
+            "offsetX": 147.29998779296875
+        },
+        {
+            "type": "change",
+            "value": "ct ",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/searchProducts?keyword=ct+",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Backspace"
+        },
+        {
+            "type": "keyUp",
+            "key": "Backspace",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "offsetY": 19.92498779296875,
+            "offsetX": 64.29998779296875
+        },
+        {
+            "type": "change",
+            "value": "cat ",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/searchProducts?keyword=cat+",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "offsetY": 15.92498779296875,
+            "offsetX": 124.29998779296875
+        },
+        {
+            "type": "change",
+            "value": "dog",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Search"
+                ],
+                [
+                    "section button"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/div/button"
+                ],
+                [
+                    "pierce/section button"
+                ]
+            ],
+            "offsetY": 14.92498779296875,
+            "offsetX": 58.89996337890625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/searchProducts?keyword=dog",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Friendly dog from England[role=\"link\"]"
+                ],
+                [
+                    "td:nth-of-type(3) > a"
+                ],
+                [
+                    "xpath///*[@id=\"Catalog\"]/table/tbody/tr[2]/td[3]/a"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > a"
+                ],
+                [
+                    "text/Friendly dog"
+                ]
+            ],
+            "offsetY": 8.60626220703125,
+            "offsetX": 235.80624389648438,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/products/K9-BD-01",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "offsetY": 21.92498779296875,
+            "offsetX": 78.29998779296875
+        },
+        {
+            "type": "change",
+            "value": "fish",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "section input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ],
+                [
+                    "pierce/section input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Search"
+                ],
+                [
+                    "section button"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/div/button"
+                ],
+                [
+                    "pierce/section button"
+                ],
+                [
+                    "text/Search"
+                ]
+            ],
+            "offsetY": 16.92498779296875,
+            "offsetX": 30.89996337890625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/searchProducts?keyword=fish",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Salt Water fish from Australia[role=\"gridcell\"]"
+                ],
+                [
+                    "tr:nth-of-type(2) > td:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"Catalog\"]/table/tbody/tr[2]/td[3]"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) > td:nth-of-type(3)"
+                ]
+            ],
+            "offsetY": 18.856231689453125,
+            "offsetX": 175.80624389648438
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Fresh Water fish from China[role=\"link\"]"
+                ],
+                [
+                    "tr:nth-of-type(3) > td:nth-of-type(3) > a"
+                ],
+                [
+                    "xpath///*[@id=\"Catalog\"]/table/tbody/tr[3]/td[3]/a"
+                ],
+                [
+                    "pierce/tr:nth-of-type(3) > td:nth-of-type(3) > a"
+                ],
+                [
+                    "text/Fresh Water fish"
+                ]
+            ],
+            "offsetY": 6.60626220703125,
+            "offsetX": 188.80624389648438,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/products/FI-FW-02",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        }
+    ]
+}
